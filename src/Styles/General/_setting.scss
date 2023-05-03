@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background-color: $white-main;
+  color: $black-main;
+}
+.container {
+  width: 90vw;
+  margin: 0 auto;
+  height: auto;
+}
+li {
+  list-style-type: none;
+}
+section {
+  height: auto;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+.btn {
+  border: 1px solid $darkblue-main;
+  padding: $smallmain $x-large;
+  border-radius: $x-small;
+  font-size: $smallmain;
+  margin-bottom: $normal;
+  font-weight: 600;
+}
+a{
+  cursor: pointer;
+  color: black;
+}

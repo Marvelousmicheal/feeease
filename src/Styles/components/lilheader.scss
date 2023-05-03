@@ -1,0 +1,26 @@
+.lilheader{
+    h5 {
+            font-size: 24px;
+            line-height: 31.2px;
+            padding-top: 7.5rem;
+            color: $darkblue-main;
+            margin-bottom: 30px;
+        }
+    
+        h1 {
+            font-weight: 700;
+            margin-bottom: 2rem;
+            font-size: 78px;
+            line-height: 5rem;
+            padding: 0 19rem;
+            color: $darkerblue-main;
+        }
+    
+        p {
+        color: $darkerblue-main;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            padding: 0 19rem;
+        }
+}

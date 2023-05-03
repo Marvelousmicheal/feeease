@@ -1,0 +1,19 @@
+.googlebtn{
+background-color: $darkblue-main;
+color:$white-main;
+border: 1px solid $darkblue-main;
+padding: $smallmain $x-large;
+border-radius: $x-small;
+font-size: $smallmain;
+margin-bottom: $normal;
+font-weight:600;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+span{
+    font-size: $normal;
+    
+    margin-right: $x-small;
+}
+}

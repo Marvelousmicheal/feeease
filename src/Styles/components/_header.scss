@@ -1,0 +1,69 @@
+header {
+  width: 85vw;
+  margin: 0 auto;
+  height: $x-large;
+  border-bottom: 1px solid $darkblue-main;
+  padding: $small;
+  
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo-main {
+    font-size: $medium;
+    color: $darkblue-main;
+    cursor: pointer;
+
+    font-weight: 800;
+    .lightblue {
+      color: $lightblue-main;
+    }
+  }
+
+  nav {
+    align-items: center;
+    display: flex;
+    margin-right: $small;
+    .nav-links {
+      display: flex;
+    }
+    .nav-links ul {
+      display: flex;
+      align-items: center;
+      margin-right: $medium;
+    }
+    li {
+      font-size: $smallmain;
+cursor: pointer;
+      margin-right: $medium;
+      font-weight: 600;
+    }
+    .auth-link {
+      display: flex;
+      align-items: center;
+
+      .signbtn {
+        padding: $smallmain $small;
+        background-color: $darkblue-main;
+        color: $white-main;
+        border-radius: $x-small;
+        border: 1px solid $darkblue-main;
+        span{
+            margin-left: $smallmain;
+        }
+      }
+            .signbtn:hover{
+              background-color: $white-main;
+              border: 1px solid $darkblue-main;
+              color: $darkblue-main;
+              transition: 1s ease-in-out;
+            }
+    }
+  }
+}
+.activelink{
+color: $darkblue-main;
+  font-weight: 800;
+  transition: 1s ease-in-out;
+
+}

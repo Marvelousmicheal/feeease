@@ -1,0 +1,109 @@
+.signPage {
+  height: 170vh;
+  .main-page {
+    height: 100vh;
+    display: flex;
+    .img-sect {
+      height: inherit;
+      width: 50%;
+    }
+    .login-sect {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      padding-top: $normal;
+      h3 {
+        color: $darkblue-main;
+        font-size: $small;
+        margin-bottom: 30px;
+      }
+      h1 {
+        text-transform: uppercase;
+        font-size: $x-large;
+        font-weight: 700;
+        margin-bottom: $normal;
+        line-height: 4.625rem;
+        color: $darkerblue-main;
+        .logo-main {
+          cursor: pointer;
+          span{
+            color: $darkblue-main;
+          }
+          .lightblue {
+            color: $lightblue-main;
+          }
+        }
+      }
+      p {
+        font-weight: 600;
+        color: $darkerblue-main;
+        margin-bottom: $normal;
+        span {
+          color: $lightblue-main;
+        }
+      }
+      .contiune {
+        color: $darkerblue-main;
+        position: relative;
+      }
+
+      .contiune::after {
+        content: "";
+        width: 40%;
+        position: absolute;
+        display: block;
+        height: 1px;
+        top: 50%;
+        right: 0;
+        background-color: $darkerblue-main;
+      }
+      .contiune::before {
+        content: "";
+        width: 40%;
+        position: absolute;
+        display: block;
+        height: 1px;
+        top: 50%;
+        background-color: $darkerblue-main;
+      }
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+
+      label {
+        text-align: left;
+        text-transform: capitalize;
+        color: $darkerblue-main;
+        font-size: 18px;
+        line-height: 30px;
+
+        font-weight: 600;
+      }
+      input {
+        padding: 12px 20px;
+        color: $darkerblue-main;
+        width: 100%;
+        background: $white-main;
+        border: 1px solid #eeecf7;
+        border-radius: 10px;
+        font-size: $normal;
+        margin-bottom: $normal;
+        font-weight: 300;
+      }
+      .btn-color {
+        background-color: $darkerblue-main;
+        color: $white-main;
+        cursor: pointer;
+        
+      }
+            .btn-color:hover {
+              background-color: $white-main;
+              border: 1px solid $darkblue-main;
+              color: $darkblue-main;
+              transition: 1s ease-in-out;
+            }
+    }
+  }
+}

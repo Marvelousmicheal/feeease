@@ -1,0 +1,44 @@
+.intro {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c266c;
+  color: $white-main;
+  transition: 1s;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.quote-header {
+  font-weight: 900;
+  text-align: center;
+  text-transform: capitalize;
+  .big-header{
+    font-size: $xx-large;
+  }
+  .small-header{
+    font-size: $normal;
+  }
+}
+.logo {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+    letter-spacing: 5px;
+    font-size: 3rem;
+}
+.logo.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.7s;
+}
+.logo.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.7s;
+}

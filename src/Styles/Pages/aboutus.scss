@@ -1,0 +1,260 @@
+.Aboutus-section {
+  .main {
+    height: 150vh;
+  }
+  .main-one {
+    background-image: url("../../../public/image/aboutus-banner-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+
+    h4 {
+      font-size: 24px;
+      line-height: 31.2px;
+      padding-top: 16px;
+      color: $abstract-green;
+    }
+    h1 {
+      font-size: 76px;
+      line-height: 98.8px;
+      margin-top: 20px;
+      padding: 0 95px;
+      color: $white-main;
+    }
+    .container {
+      .play-main {
+        height: 30.5rem;
+        width: 85vw;
+        position: relative;
+        margin: 7rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0;
+        }
+
+        .outer-play {
+          width: 7.25rem;
+          height: 7.25rem;
+          border: 1px solid $white-main;
+          border-radius: 100%;
+          position: relative;
+          animation: bigger 5s infinite ease-in-out;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: rgba(255, 255, 255, 0.274);
+
+          button {
+            width: 7rem;
+            height: 7rem;
+            border-radius: 100%;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            color: $darkerblue-main;
+            font-size: $large;
+            text-align: center;
+            cursor: pointer;
+          }
+          @keyframes bigger {
+            0% {
+              width: 8rem;
+              height: 8rem;
+            }
+            50% {
+              width: 12rem;
+              height: 12rem;
+            }
+            100% {
+              width: 8rem;
+              height: 8rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .main-two {
+    height: 60vh;
+    .container {
+      display: flex;
+      justify-content: space-between;
+
+      div {
+        height: 50vh;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        span {
+          background-color: $darkblue-main;
+          width: 120px;
+          height: 120px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 100%;
+          color: $white-main;
+          font-size: $large;
+        }
+        h5 {
+          font-weight: 600;
+          color: $darkerblue-main;
+          font-size: 2rem;
+          line-height: 31.2px;
+          margin-top: 2rem;
+          padding: 0 2rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .team-id,
+  .card-main,
+  .location-main {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+  }
+
+  .main-three {
+    background-color: #f5f6fc;
+    height: 165vh;
+    text-align: center;
+
+    .card-main {
+      p {
+        color: $darkerblue-main;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+      }
+
+      .card {
+        width: 36.75rem;
+        border-radius: 10px;
+        background-color: $white-main;
+        padding: 30px;
+        display: flex;
+        text-align: left;
+        gap: 2rem;
+        color: $darkerblue-main;
+
+        span {
+          font-size: 5rem;
+        }
+
+        h4 {
+          font-size: 32px;
+          line-height: 41.6px;
+
+          margin-bottom: 17px;
+        }
+      }
+    }
+  }
+
+  .main-four {
+    text-align: center;
+
+    .team-card {
+      text-align: center;
+      border-radius: 20px;
+      background-color: var(--bs-white);
+      box-shadow: 4px 6.928px 17px 0 rgba(106, 105, 194, 0.25);
+      padding: 30px;
+      h4 {
+        font-size: 24px;
+        line-height: 31.2px;
+        margin: 1rem 0;
+        color: $darkerblue-main;
+      }
+      p {
+        font-weight: 600;
+        color: $darkblue-main;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        line-height: 30px;
+      }
+      .social-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        margin: 0 auto;
+
+        span {
+          font-size: 1.3rem;
+          color: $darkerblue-main;
+        }
+      }
+    }
+  }
+  .main-five {
+    text-align: center;
+    height: 180vh;
+    background-image: url(../../../public/image/location-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    .location {
+      border-radius: 20px;
+      background-color: $white-main;
+      box-shadow: 4px 6.928px 17px 0 rgba(106, 105, 194, 0.25);
+      padding: 40px 30px 33px;
+      margin-bottom: 30px;
+
+      .locationname {
+        display: flex;
+        margin-bottom: 2rem;
+        span {
+          font-size: 3rem;
+          border-radius: 50%;
+          width: 50px;
+          margin-right: 2rem;
+          height: 50px;
+          background-color: rgba(128, 128, 255, 0.363);
+        }
+        h2 {
+          font-size: 32px;
+          line-height: 41.6px;
+          color: $darkerblue-main;
+        }
+      }
+      .locationemail-number {
+        display: flex;
+        flex-direction: column;
+        .locationdetail {
+          display: inherit;
+          align-items: center;
+          span {
+            font-size: 1.5rem;
+            margin-right: 2rem;
+            color: rgb(245, 79, 79);
+          }
+          h5 {
+            font-size: 1rem;
+            line-height: 41.6px;
+            font-weight: 600;
+            color: $darkerblue-main;
+          }
+        }
+      }
+    }
+  }
+}
